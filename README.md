@@ -4,8 +4,6 @@
 
 SAP-L is a **progression-aware representation learning framework** for automated heel spur severity assessment from lateral foot radiographs. Unlike conventional deep learning approaches that primarily optimize classification accuracy, SAP-L explicitly models the ordinal progression of disease severity by introducing frequency-domain constraints into the learned latent representations.
 
-### Key Innovation
-
 SAP-L transforms latent features into the spectral domain using the **Discrete Cosine Transform (DCT)**, decomposes them into low-, mid-, and high-frequency components, and introduces **Spectral Progression Regularization (SPR)** to enforce monotonic ordering of class-wise high-frequency spectral energy. This encourages progression-aware latent representations while remaining compatible with existing convolutional neural network backbones.
 
 ### Performance
