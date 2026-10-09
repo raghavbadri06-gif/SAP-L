@@ -1,5 +1,5 @@
 # SAP-L: Spectral Abnormality Progression Learning for Heel Spur Severity Assessment
-
+> **Note:** This work is **under Consideration** in the ***Biomedical Signal Processing and control Journal*** journal, Elsevier. 
 ## Overview
 
 SAP-L is a **progression-aware representation learning framework** for automated heel spur severity assessment from lateral foot radiographs. Unlike conventional deep learning approaches that primarily optimize classification accuracy, SAP-L explicitly models the ordinal progression of disease severity by introducing frequency-domain constraints into the learned latent representations.
@@ -146,7 +146,7 @@ SAP-L/
 └── README.md
 ```
 
-## Citation
+## 
 
 If you use this repository in your research, please cite the associated publication when published.
 
