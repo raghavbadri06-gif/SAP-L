@@ -6,6 +6,10 @@ SAP-L is a **progression-aware representation learning framework** for automated
 
 SAP-L transforms latent features into the spectral domain using the **Discrete Cosine Transform (DCT)**, decomposes them into low-, mid-, and high-frequency components, and introduces **Spectral Progression Regularization (SPR)** to enforce monotonic ordering of class-wise high-frequency spectral energy. This encourages progression-aware latent representations while remaining compatible with existing convolutional neural network backbones.
 
+**Important note**
+It was noted that the mid level energy followed a progressive order
+**\begin{matrix}\!  & {\mathrm{\mu }}_{\mathrm{Normal}}\lt {\mathrm{\mu }}_{\mathrm{HeelSpur}}\lt {\mathrm{\mu }}_{\mathrm{Severe}} & \!  & \! \end{matrix}** 
+
 ### Performance
 
 The framework is evaluated using **GhostNet**, **EfficientNet-B0**, and **MobileNetV3** on the publicly available Heel Bone Dataset. **EfficientNet-B0 achieved the best overall classification performance**, while SAP-L consistently enhanced latent-space organization across all evaluated backbones through improved representation quality and class separability.
