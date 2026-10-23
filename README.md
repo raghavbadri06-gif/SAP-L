@@ -7,8 +7,14 @@ SAP-L is a **progression-aware representation learning framework** for automated
 SAP-L transforms latent features into the spectral domain using the **Discrete Cosine Transform (DCT)**, decomposes them into low-, mid-, and high-frequency components, and introduces **Spectral Progression Regularization (SPR)** to enforce monotonic ordering of class-wise high-frequency spectral energy. This encourages progression-aware latent representations while remaining compatible with existing convolutional neural network backbones.
 
 **Important note**
-It was noted that the mid level energy followed a progressive order
-**\begin{matrix}\!  & {\mathrm{\mu }}_{\mathrm{Normal}}\lt {\mathrm{\mu }}_{\mathrm{HeelSpur}}\lt {\mathrm{\mu }}_{\mathrm{Severe}} & \!  & \! \end{matrix}** 
+
+It was noted that the mid-level energy followed a progressive order:
+
+$$
+\begin{matrix}
+ & \mu_{\mathrm{Normal}} < \mu_{\mathrm{HeelSpur}} < \mu_{\mathrm{Severe}} & 
+\end{matrix}
+$$
 
 ### Performance
 
